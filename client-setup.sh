@@ -1,17 +1,32 @@
 #!/bin/bash
 sudo apt-get install -y \
   snapd \
+  git \
+  xrdp \
+  openvpn \
+  docker.io \
+  docker-compose \
+  neovim \
+  code \
+  unzip \
+  zip \
+  curl \
+  netcat \
+  python3 \
+  python3-dev \
+  python3-pip \
+  tmux \
+  whois \
+  
+  # Hacking tools
   nmap \
   hydra \
   steghide \
+  gobuster \
   binwalk \
   exiftool \
   hexedit \
-  curl \
-  netcat \
-  python3-dev \
-  tmux \
-  tcpdump;
+  tcpdump
   
 sudo snap install \
   john-the-ripper
