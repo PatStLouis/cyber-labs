@@ -15,8 +15,11 @@ sudo apt-get install -y \
   python3 \
   python3-dev \
   python3-pip \
+  terminator \
   tmux \
   whois \
+  rsync \
+  gimp \
   
   # Hacking tools
   nmap \
@@ -31,5 +34,8 @@ sudo apt-get install -y \
 sudo snap install \
   john-the-ripper
   
+sudo snap install \
+  cool-retro-term -classic
+  
 sudo apt install -y libffi-dev
-sudo pip3 install sqlmap requests
+sudo pip3 install sqlmap requests pynvim
