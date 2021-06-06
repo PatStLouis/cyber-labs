@@ -33,10 +33,10 @@ hexedit \
 tcpdump
   
 sudo snap install \
-  john-the-ripper
+john-the-ripper
   
 sudo snap install \
-  cool-retro-term -classic
+cool-retro-term --classic
   
 sudo apt install -y libffi-dev
 sudo pip3 install sqlmap requests pynvim
