@@ -40,3 +40,4 @@ sudo snap install \
   
 sudo apt install -y libffi-dev
 sudo pip3 install sqlmap requests pynvim
+
