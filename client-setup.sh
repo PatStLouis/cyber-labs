@@ -1,3 +1,6 @@
+# diet pi lxpolkit hack
+sudo mv /usr/bin/lxpolkit /usr/bin/lxpolkit.bak
+
 #!/bin/bash
 sudo apt-get install -y \
   snapd \
