@@ -33,7 +33,7 @@ echo "     distribution must be installed onto the SD card before     "
 echo -e "     proceeding. See README (if exist) for more information.    ${NC}"
 echo ""
 echo -e "${CYAN}[>] Press ENTER to continue, CTRL+C to abort.${NC}"
-read INPUT
+#read INPUT
 echo ""
 
 # change password
@@ -69,10 +69,10 @@ sudo apt-get install -y \
 	hostapd \
 	hydra \
 	iw \
-	kismet \
+	#kismet \
 	libimage-exiftool-perl \
 	locate \
-	macchanger \
+	#macchanger \
 	mariadb-client \
 	mariadb-server \
 	mycli \
@@ -84,7 +84,7 @@ sudo apt-get install -y \
 	php \
 	python3-dev \
 	python3-pip \
-	ruby-full \
+	#ruby-full \
 	screen \
 	smbclient \
 	snapd \
@@ -99,8 +99,8 @@ sudo apt-get install -y \
 	whois;
 
 # install from gems
-echo -e "\n${YELLOW}[!] install from gems${NC}"
-sudo gem install wpscan bundle evil-winrm
+#echo -e "\n${YELLOW}[!] install from gems${NC}"
+#sudo gem install wpscan bundle evil-winrm
 
 # install from pip
 echo -e "\n${YELLOW}[!] install from pip${NC}"
