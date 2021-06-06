@@ -23,8 +23,6 @@ sudo apt-get install -y \
   whois \
   rsync \
   gimp \
-  
-  # Hacking tools
   nmap \
   hydra \
   steghide \
