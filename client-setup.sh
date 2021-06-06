@@ -30,7 +30,7 @@ gobuster \
 binwalk \
 exiftool \
 hexedit \
-tcpdump
+tcpdump;
   
 sudo snap install \
 john-the-ripper
