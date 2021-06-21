@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+sudo apt update -y && sudo apt upgrade -y
+
 # diet pi lxpolkit error hack
 sudo mv /usr/bin/lxpolkit /usr/bin/lxpolkit.bak
 
