@@ -1,8 +1,7 @@
 #!/bin/bash
+sudo apt update && sudo apt upgrade -y
 sudo apt-get install -y \
 snapd \
-openvpn \
-wireguard \
 unzip \
 zip \
 netcat \
@@ -13,7 +12,6 @@ terminator \
 tmux \
 whois \
 rsync \
-gimp \
 nmap \
 hydra \
 steghide \
