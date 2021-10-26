@@ -1,6 +1,7 @@
 #!/bin/bash
 apt update && sudo apt upgrade -y
 apt-get install -y \
+git \
 curl \
 snapd \
 unzip \
@@ -25,16 +26,17 @@ tcpdump;
 # Docker
 apt install -y apt-transport-https ca-certificates software-properties-common
 curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
-usermod -aG docker dietpi
 
-snap install \
-john-the-ripper
+# Juice-shop
+docker run -d --name juice-shop -p 3000:3000 santosomar/juice-shop-arm64
 
-snap install \
-cool-retro-term --classic
+snap install john-the-ripper
+snap install cool-retro-term --classic
+
+echo "alias john='snap run john-the-ripper'" >> ~/.bash_profile
+echo "alias cool='snap run cool-retro-term'" >> ~/.bash_profile
 
 pip3 install \
 sqlmap \
 requests \
 pynvim
-
