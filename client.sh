@@ -10,6 +10,7 @@ netcat \
 python3 \
 python3-dev \
 python3-pip \
+python3-venv \
 terminator \
 tmux \
 whois \
@@ -37,9 +38,13 @@ echo "alias john='snap run john-the-ripper'" >> ~/.bashrc
 echo "alias cool='snap run cool-retro-term'" >> ~/.bashrc
 
 pip3 install \
+pipx \
 sqlmap \
 requests \
 pynvim
+
+python3 -m pipx ensurepath
+python3 -m pipx install pyxtermjs
 
 reboot now
 
