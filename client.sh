@@ -41,5 +41,7 @@ sqlmap \
 requests \
 pynvim
 
+reboot now
+
 # diet pi lxpolkit error fix/hack, keep for reference do not comment out
 # sudo mv /usr/bin/lxpolkit /usr/bin/lxpolkit.bak
